@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#buttons button{
+    min-width: 48%;
+}
+@media screen and (max-width:560px) {
+    #buttons button{
+        min-width: 90%;
+    }
+}
+::selection{
+    color:lawngreen;
+}
